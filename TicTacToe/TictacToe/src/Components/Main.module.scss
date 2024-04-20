@@ -1,0 +1,19 @@
+.parentBox {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 200px;
+    border: 1px solid gray;
+    font-size: 40px;
+    font-weight: 900;
+}

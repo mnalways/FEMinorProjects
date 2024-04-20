@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%
+}
+
+.bar {
+    width: 50%;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: green;
+    height: 100%;
+    width: 0%;
+    transition: width ease-in 1000ms;
+}
